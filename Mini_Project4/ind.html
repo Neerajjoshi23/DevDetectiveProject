@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="wrapper">
+    <!--Intro Section -->
+    <header class="header-container">
+        <p class="DevDetective">DevDetective</p>
+        <div class="modess">
+            <p mode-Selector class="mode">Light </p>
+            <img src="../Dev Detective Project/assets/images/sun-icon.svg" width="23px"
+            height="23px" mode-image >
+        </div>
+
+    </header>
+    <!--Search Bar-->
+    <div class="search-container">
+        <img src="../Dev Detective Project/assets/images/search-icon.svg">
+        <input type="text" placeholder="Enter A Github Username..." input-bar class="input-bar">
+        <button search class="btn">Search</button>
+    </div>
+    <!--Profile Section-->
+
+    <div class="user-info-container">
+        <!--left section-->
+        <div class="left-section">
+            <img userImage class="userimage">
+        </div>
+        <div class="right-section">
+
+        <div class="basic-details">
+            <p userName id="username"></p>
+            <p userJoinedDate id="joineddate"></p>
+        </div>
+        <!--directing link-->
+        <div>
+            <a profileLink></a>
+        </div>
+
+        <!--bio-->
+        <p bioDetails class="biodetails"></p>
+        <!--followers details-->
+        <div class="accountdetails-container">
+            <div class="reposedetails">Repose <br> <p reposeDetails></p></div>
+            <div class="followersdetails" >Followers <br> <p followersDetails ></p></div>
+           <div class="followingdetails">Followings <br> <p followingDetails></p></div>
+
+        </div>
+
+        <!--Other account details-->
+        <div class="networkdetails-container">
+                   <div class="info">
+                  <img src="../Dev Detective Project/assets/images/location-icon.svg" class="info-image">
+                  <p locationDetails class="info-mode"></p>
+                   </div> 
+            <div class="info">
+                <img src="../Dev Detective Project/assets/images/website-icon.svg" class="info-image">
+                <a websiteDetails href="#" class="info-mode"></a>
+            </div>
+            <div class="info">
+                <img src="../Dev Detective Project/assets/images/twitter-icon.svg" class="info-image">
+                <a twitterDetails href="#" class="info-mode"></a>
+            </div>
+            <div class="info">
+                <img src="../Dev Detective Project/assets/images/company-icon.svg" class="info-image">
+                <p companyDetails class="info-mode"></p>
+            </div>
+
+        </div>
+
+
+
+        </div>
+
+    </div>
+
+   </div>
+    <script src="ind.js">
+    </script>
+</body>
+</html>
